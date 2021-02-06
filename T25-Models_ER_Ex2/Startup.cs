@@ -30,7 +30,7 @@ namespace T25_Models_ER_Ex2
                 opt.UseInMemoryDatabase("API DEPARTAMENTOS"));
             services.AddControllers();
 
-            // añadimos swagger
+            // aÃ±adimos swagger
             services.AddSwaggerGen();
         }
 
@@ -45,7 +45,7 @@ namespace T25_Models_ER_Ex2
             // SUAGGER
             app.UseSwagger();
 
-            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API FabricantesArticulos"); });
+            app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API Departamentos"); });
 
             app.UseRouting();
 
